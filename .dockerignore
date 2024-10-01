@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# IDE / Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Node.js dependencies (if using a frontend or other Node-related functionality)
+node_modules/
+npm-debug.log
+
+# Pytest and test-related files
+pytest_cache/
+.coverage
+htmlcov/
+junit.xml
+test-results.xml
+tests/
+
+# Local Python environment files
+*.local
+
+# git folder
+.git/
